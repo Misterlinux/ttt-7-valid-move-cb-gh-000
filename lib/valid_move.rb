@@ -13,6 +13,7 @@ def position_taken?(board,index)
     false
   else
     true
+    index=index-1
   end
 end
 # code your #valid_move? method here
