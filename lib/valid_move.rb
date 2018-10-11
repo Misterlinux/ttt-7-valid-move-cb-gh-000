@@ -2,9 +2,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move?(board, index)
   if position_taken? && index.between?(0,8)
-    false
-  else
     true
+  else
+    false
  end
 end
 
